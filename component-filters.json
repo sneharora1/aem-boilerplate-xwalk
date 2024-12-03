@@ -32,6 +32,12 @@
     ]
   },
   {
+    "id": "image-carousel",
+    "components": [
+      "image-slide"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
