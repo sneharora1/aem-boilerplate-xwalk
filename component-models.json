@@ -178,6 +178,36 @@
        }
      ]
   },
+   {
+    "id": "image-slide",
+    "fields": [
+      {
+        "component": "custom-asset-namespace:custom-asset",
+        "configUrl": "https://290622-assetpickerconfig-stage.adobeio-static.net/api/v1/web/assetpicker_config_aio/get-config",
+        "valueType": "string",
+        "name": "image_desktop",
+        "label": "Image Desktop",
+        "multi": false,
+        "assetType": "image"
+      },
+      {
+        "component": "custom-asset-namespace:custom-asset",
+        "configUrl": "https://290622-assetpickerconfig-stage.adobeio-static.net/api/v1/web/assetpicker_config_aio/get-config",
+        "valueType": "string",
+        "name": "image_mobile",
+        "label": "Image (mobile)",
+        "multi": false,
+        "assetType": "image"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "image_mobileTitle",
+        "value": "Default alt",
+        "label": "Alt Text"
+      }
+    ]
+  },
   {
     "id": "hero",
     "fields": [
