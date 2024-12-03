@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p66302-e574366.adobeaemcloud.com/bin/franklin.delivery/sneharora1/em-boilerplate-xwalk/main"
+    url: "https://author-p66302-e574366.adobeaemcloud.com/bin/franklin.delivery/sneharora1/aem-demo/main"
     type: "markup"
     suffix: ".html"
